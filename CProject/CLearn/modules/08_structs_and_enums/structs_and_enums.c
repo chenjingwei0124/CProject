@@ -46,7 +46,18 @@ int main(void)
 
     for (size_t i = 0; i < count; ++i) {
         print_student(&students[i]);
+        printf("%p\n", &students[i]);
     }
+
+    Student student = {"小李", 19, 88.0, LEVEL_BEGINNER};
+    Student *pointer = &student;
+    Student s = (*pointer);
+
+    printf("%s：%d 岁，%.1f 分，%s\n",
+           s.name,
+           s.age,
+           s.score,
+           level_name(s.level));
 
     return 0;
 }
