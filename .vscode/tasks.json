@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "/usr/bin/clang",
+            "command": "C:\\Program Files\\LLVM\\bin\\clang.exe",
             "args": [
                 "-g",
                 "-O0",
@@ -28,7 +28,7 @@
                 "panel": "shared",
                 "clear": true
             },
-            "detail": "C/C++: clang build active file（-g 生成 DWARF 调试符号，-O0 关闭优化以保证断点与变量查看准确，-Wall -Wextra 开启常用告警，-std=gnu17 兼容 macOS POSIX 头文件）"
+            "detail": "C/C++: clang build active file（-g 生成调试符号，-O0 关闭优化，-Wall -Wextra 开启常用告警，-std=gnu17）"
         }
     ]
 }

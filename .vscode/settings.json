@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": {
+        "c": "chcp 65001 > $null; & 'C:\\Program Files\\LLVM\\bin\\clang.exe' $fileName -o $fileNameWithoutExt.exe; if ($?) { .\\$fileNameWithoutExt.exe }"
+    }
+}
