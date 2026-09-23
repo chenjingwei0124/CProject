@@ -1,0 +1,19 @@
+# macOS metadata
+.DS_Store
+
+# Editor-generated scratch files
+**/tempCodeRunnerFile.c
+
+# Xcode user-specific state
+**/xcuserdata/
+*.xcuserstate
+
+# Local build outputs
+CProject/hello
+CProject/Ctest/Ctest/main
+CProject/CLearn/build/
+CProject/CLearn/demo_output.txt
+CProject/CLearn/modules/01_getting_started/hello_world
+CProject/CLearn/modules/04_control_flow/control_flow
+CProject/CLearn/modules/06_arrays_and_strings/arrays_and_strings
+CProject/CLearn/modules/07_pointers/pointers
